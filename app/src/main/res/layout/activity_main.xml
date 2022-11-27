@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/editName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Име"
+        android:inputType="textPersonName"></EditText>
+
+    <EditText
+        android:id="@+id/editPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Телефон"
+        android:inputType="phone"></EditText>
+
+    <EditText
+        android:id="@+id/editEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Имейл"
+        android:inputType="textEmailAddress"></EditText>
+
+    <EditText
+        android:id="@+id/editAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Къде забелязахте животното?"
+        android:inputType="text"></EditText>
+
+    <EditText
+        android:id="@+id/editProblem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Опишете проблема накратко"
+        android:inputType="text"></EditText>
+
+    <Button
+        android:id="@+id/btnInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:text="Изпрати"></Button>
+
+    <Button
+        android:id="@+id/btnChangeLocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:text="Смени локация"></Button>
+
+    <Button
+        android:id="@+id/btnViewVets"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:text="Виж ветеринарни клиники наблизо"></Button>
+
+    <ListView
+        android:id="@+id/oldRequestList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+    <ListView
+        android:id="@+id/vetList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+
+</LinearLayout>
+
